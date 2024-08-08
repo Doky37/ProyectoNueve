@@ -10,3 +10,18 @@ p{
     font-family: 'Lucida Sans';
     font-size: 20px;
 }
+header{
+    background-color: brown;
+}
+
+article{
+    background-color: rgb(73, 73, 131);
+    width: 70%;
+    padding: 20px;
+}
+nav{
+   width: 30%;
+   background-color: aqua;
+footer{
+    background-color: rgb(253, 196, 208);
+}
