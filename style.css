@@ -33,16 +33,15 @@ footer{
     background-color: rgb(253, 196, 208);
     padding: 10px;
 }
-.cont1{
-padding: 20px;
-background-color: blue;
-}
+
 
 .wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
     grid-auto-rows: minmax(100px, auto);
+    padding: 20px;
+background-color: rgb(0, 149, 255);
   }
   .one {
     grid-column: 1 / 3;
