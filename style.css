@@ -15,6 +15,7 @@ header{
 }
 
 article{
+    float: left;
     background-color: rgb(73, 73, 131);
     width: 70%;
     padding: 20px;
@@ -22,6 +23,13 @@ article{
 nav{
    width: 30%;
    background-color: aqua;
+}
+section::after{
+    content: "";
+    display: table;
+    clear: both;
+}
 footer{
     background-color: rgb(253, 196, 208);
+    padding: 10px;
 }
