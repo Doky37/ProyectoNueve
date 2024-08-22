@@ -1,12 +1,12 @@
 body{
-background-color: aquamarine;
+background-image: url("../ProyectoNueve/assets/imagenes/fondo.jpeg");
 }
 h1{
     color: red;
     text-align: center;
 }
 p{
-    color: blueviolet;
+    color: rgb(37, 16, 57);
     font-family: 'Lucida Sans';
     font-size: 20px;
 }
@@ -15,10 +15,11 @@ header{
 }
 
 article{
-    float: left;
+    float: auto;
     background-color: rgb(73, 73, 131);
     width: 70%;
     padding: 20px;
+    margin: auto;
 }
 nav{
    width: 30%;
