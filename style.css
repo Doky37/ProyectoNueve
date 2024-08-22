@@ -69,7 +69,11 @@ background-color: rgb(0, 149, 255);
     grid-row: 4;
   }
   .draw {
-    float: center;
+    float: auto;
+    background-color: rgb(73, 73, 131);
+    width: 38%;
+    padding: 10px;
+    margin: auto;
   }
   .wrapper2{
     display: flex;
