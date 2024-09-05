@@ -1,5 +1,7 @@
 body{
-background-image: url("../ProyectoNueve/assets/imagenes/fondo.jpeg") ;
+background-image: url("../ProyectoNueve/assets/imagenes/fondo.jpeg");
+background-size: cover;
+
 }
 h1{
     color: white;
@@ -10,7 +12,6 @@ p{
     color: rgb(37, 16, 57);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px; padding: 5px;
-    
 }
 header{
     background-color: brown;
@@ -23,8 +24,8 @@ article{
     margin: auto;
 }
 nav{
-   width: 30%;
-   background-color: aqua;
+   width: 100%;
+   background-color: rgb(6, 48, 84);
 }
 section::after{
     content: "";
@@ -36,7 +37,11 @@ footer{
     padding: 10px;
 }
 
-
+.inicio{
+  float: auto;
+    padding: 5px;
+    margin: auto;
+}
 .wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -113,6 +118,16 @@ background-color: rgb(0, 149, 255);
   .dropdown {
     position: relative;
     display: inline-block;
+    
+   
+  
+  }
+
+  .dropdown a:hover {
+   
+  width: 20%;
+  text-align: center;
+  padding: 12px 0;
   }
   
   .dropdown-content {
@@ -138,16 +153,18 @@ background-color: rgb(0, 149, 255);
   .dropdown:hover .dropbtn {background-color: #3e8e41;}
 
   .bio{
-    position: absolute;
+    position:initial;
     background-color: #ca2525;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    color:white;
+   padding: 16px;
+    font-size: 16px;
+    border: none;
+    float: left;
     
   }
 
   @font-face{
 src:url(assets/fonts/Patrick_Hand.zip);
-src: url(assets/fonts/typewriter_press.zip);
 font-family: "Patrick Hand", cursive;
   font-weight: 400;
   font-style: normal;
