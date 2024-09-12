@@ -94,8 +94,9 @@ background-color: rgb(0, 149, 255);
     background-color: azure;
   }
   img{
-    float: none;
+    float:none;
     padding: 5px;
+    
   }
   *{
     box-sizing: border-box;
@@ -168,4 +169,13 @@ src:url(assets/fonts/Patrick_Hand.zip);
 font-family: "Patrick Hand", cursive;
   font-weight: 400;
   font-style: normal;
+  }
+
+  .carousel-inner{
+    position: relative;
+  border: 3px solid #dbe4ed;
+  float: auto;
+  padding: 5px;
+  margin: auto;width: 50%;
+  overflow: hidden;
   }
