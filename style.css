@@ -178,4 +178,7 @@ font-family: "Patrick Hand", cursive;
   padding: 5px;
   margin: auto;width: 50%;
   overflow: hidden;
+  justify-content: center;
+  }
+  .carousel-item{
   }
