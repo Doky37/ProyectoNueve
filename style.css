@@ -172,13 +172,17 @@ font-family: "Patrick Hand", cursive;
   }
 
   .carousel-inner{
-    position: relative;
+    position:inherit;
   border: 3px solid #dbe4ed;
-  float: auto;
-  padding: 5px;
-  margin: auto;width: 50%;
+  float: none;
+  padding-left: 0%;
+  margin: auto;
+  width: 50%;
   overflow: hidden;
   justify-content: center;
+  align-items: center;
   }
   .carousel-item{
+    align-items: center;
+   
   }
