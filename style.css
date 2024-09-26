@@ -181,8 +181,14 @@ font-family: "Patrick Hand", cursive;
   overflow: hidden;
   justify-content: center;
   align-items: center;
+  display: ;
   }
-  .carousel-item{
-    align-items: center;
+  .carousel-inner{
    
+   
+  }
+  .panchito{
+    display: flex;
+    justify-content:center;
+    align-items: center;
   }
